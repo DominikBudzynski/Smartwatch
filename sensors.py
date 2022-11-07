@@ -80,8 +80,6 @@ def auto_bright():
 
 while True:
     menu()
-    #   nauto_bright()
-
 
     gest = clue.gesture
 
