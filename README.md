@@ -5,6 +5,7 @@ Posiłkowaliśmy się poniższym filmem w serwisie YouTube
 https://www.youtube.com/watch?v=opes_7Uf49U
 Korzystaliśmy również z artykułu na stronie AdaFruit, w którym mogliśmy zapoznać się z aspektami fizycznymi oraz programistycznymi platformy Clue.
 https://learn.adafruit.com/adafruit-clue/circuitpython
+
 24.10.2022
 W drugim tygodniu pracy nad projektem, znaleźliśmy przykładowe kody programowania smartwatcha. W środowisku CircuitPython zaprogramowaliśmy nasze urządzenie i próbowaliśmy przeanalizować znalezione kody programów.
 Przykładowe programy jakie testowaliśmy:
@@ -19,3 +20,6 @@ Pomocna okazała się być strona circuitpython.org, gdzie pod adresem https://d
 06.11.2022 (tydzień 4)
 Naszym celem było zaczęcie przygody z modułem Bluetooth. Bazowaliśmy na przykładowych kodach znajdujących się w pliku z pobranymi potrzebnymi bibliotekami, o stronę https://docs.circuitpython.org/projects/ble/en/latest/api.html#, https://learn.adafruit.com/now-playing-bluetooth-apple-media-service-display/code-the-apple-media-service-display oraz https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction.
 Na podstawie tych źródeł napisaliśmy prosty program, dzięki któremu płytka Clue steruje odtwarzaczem muzyki na urządzeniu połączonym przez bluetooth. Urządzenie musi mieć system operacyjny iOS. Oczywiście nie obyło się bez problemów, które opatrzyliśmy komentarzami w kodzie. Napisliśmy również inny prosty program, który wyświetla podstawowe informacje zbierane z czujników, pozwala na kontorlowanie koloru diody RGB za pomocą ruchu oraz realizuje funkcje wygaszania ekranu.
+
+14.11.2022 (tydzień 5)
+Z powodu braku wiekszej ilości wolnego czasu, zajęliśmy się analizą i zrozumieniem (przez testowanie na własnej płytce, krok po kroku z tutorialem) jednego z projektów udostępnionych na GitHub: https://github.com/andreamah/Adafruit-CLUE-Snake-Game. Na zrozumienie kodu poświęciliśmy dłuższą chwilę, ponieważ nie wszystko co jest tam zastosowane, było nam znane.
