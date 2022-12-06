@@ -23,3 +23,11 @@ Na podstawie tych źródeł napisaliśmy prosty program, dzięki któremu płytk
 
 14.11.2022 (tydzień 5)
 Z powodu braku wiekszej ilości wolnego czasu, zajęliśmy się analizą i zrozumieniem (przez testowanie na własnej płytce, krok po kroku z tutorialem) jednego z projektów udostępnionych na GitHub: https://github.com/andreamah/Adafruit-CLUE-Snake-Game. Na zrozumienie kodu poświęciliśmy dłuższą chwilę, ponieważ nie wszystko co jest tam zastosowane, było nam znane.
+
+21.11.2022(tydzień 6) W tym tygodniu skupiliśmy się głównie na poszukiwaniu możliwości graficznego interfejsu. Znaleźliśmy wiele pomocnych programów i poradników z różnych środowisk, żeby poznać całkowite możliwości płytki CLUE. Następnie staraliśmy się samodzielnie zaprogramować płytkę do wyświetlania MENU użytkownika.
+Przykłady poradników oraz repozytoriów z jakich skorzystaliśmy:
+- https://www.youtube.com/watch?v=ZTE-hqM6GPo&ab_channel=JamesTobin
+- https://github.com/jisforjt/CircuitPython_CLUE_Menu
+- http://webcache.googleusercontent.com/search?q=cache:fFBZoZMu2_oJ:www.ulisp.com/show%3F2NWA+&cd=1&hl=en&ct=clnk&gl=us
+
+28.11.2022 (tydzień 7) Napisaliśmy prosty program do wyświetlania godziny oraz MENU, który będziemy rozwijać w przyszłości. Jedynym problemem było dopasowanie MENU, aby było przejrzyste dla użytkownika, aspekt ten musimy nadal rozwijać ponieważ nie jesteśmy zadowoleni z efektu.
