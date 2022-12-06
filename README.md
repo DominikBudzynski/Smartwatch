@@ -31,3 +31,5 @@ Przykłady poradników oraz repozytoriów z jakich skorzystaliśmy:
 - http://webcache.googleusercontent.com/search?q=cache:fFBZoZMu2_oJ:www.ulisp.com/show%3F2NWA+&cd=1&hl=en&ct=clnk&gl=us
 
 28.11.2022 (tydzień 7) Napisaliśmy prosty program do wyświetlania godziny oraz MENU, który będziemy rozwijać w przyszłości. Jedynym problemem było dopasowanie MENU, aby było przejrzyste dla użytkownika, aspekt ten musimy nadal rozwijać ponieważ nie jesteśmy zadowoleni z efektu.
+
+5.12.2022 (tydzień 8) Napisaliśmy program, który realizuje logikę zegarka z możliwościa ustalania godziny na własną i "zlicza" czas, przez który użytkownik nie korzystał z ekranu zegarka. Wyświetla cyfry na tle zwenętrznej grafiki, którą można wgrać według preferencji. Kod jest narazie w formie roboczej i jest napisany tak aby działał, postaramy się zmienić go tak, aby był elegancki na tyle ile potrafimy. Przy realizacji tego zadania przydatne był strony: https://learn.adafruit.com/clue-step-counter-st-lsm6ds33, https://learn.adafruit.com/arduino-to-circuitpython/modules-and-importing, https://docs.circuitpython.org/en/latest/shared-bindings/time/index.html#.
