@@ -45,7 +45,7 @@ Aspekty które wymagają poprawy:
 -zoptymalizowanie pracy na grupach wyświetlających grafikę
 -działanie budzika przy włączonym ekranie odtwarzacza muzyki
 
-Szybka instrukcja obśługi:
+Szybka instrukcja obsługi:
 
 Pierw, należy połączyć się z płytką przez Bluetooth.
 Niestety wspierane tylko urządzenia z systemem iOS.
