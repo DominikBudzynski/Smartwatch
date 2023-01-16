@@ -33,3 +33,36 @@ Przykłady poradników oraz repozytoriów z jakich skorzystaliśmy:
 28.11.2022 (tydzień 7) Napisaliśmy prosty program do wyświetlania godziny oraz MENU, który będziemy rozwijać w przyszłości. Jedynym problemem było dopasowanie MENU, aby było przejrzyste dla użytkownika, aspekt ten musimy nadal rozwijać ponieważ nie jesteśmy zadowoleni z efektu.
 
 5.12.2022 (tydzień 8) Napisaliśmy program, który realizuje logikę zegarka z możliwościa ustalania godziny na własną i "zliczania" czasu, przez który użytkownik nie korzystał z ekranu zegarka. Wyświetla cyfry na tle zwenętrznej grafiki, którą można wgrać według preferencji. Kod jest narazie w formie roboczej i jest napisany tak aby działał, postaramy się zmienić go tak, aby był elegancki na tyle ile potrafimy. Przy realizacji tego zadania przydatne był strony: https://learn.adafruit.com/clue-step-counter-st-lsm6ds33, https://learn.adafruit.com/arduino-to-circuitpython/modules-and-importing, https://docs.circuitpython.org/en/latest/shared-bindings/time/index.html#. Program dodany jest do repozytorium.
+
+12.12.2022 oraz 2.01.2023 (tydzień 9 i tydzień 10) Brak czasu na rozwój projektu
+
+9.01.2023 (tydzień 11) Optymalizacja i gruntowna zmiana mechanizmu odpowiadającego za zegarek. Dodano klasę Clock które obsługuję wszystko to co długi i niekształtny kod z pliku clock.py. Program działa przez to sprawniej.
+
+16.01.2023 (tydzień 12) Dodano automatyczne wygaszanie ekranu po 30 sekundach bez wykrycia czynności. Dodano mechanizm możliwości ustawienia budzika na konkretną godzinę oraz ustawienia początkowej godziny przy włączeniu urządzenia. Mimo że, nie jesteśmy zadowoleni w 100% z efektów pracy to możemy uznać, że projekt został zakończony.
+
+Aspekty które wymagają poprawy:
+-wskazywanie zmienianej pozycji godzin i minut
+-zoptymalizowanie pracy na grupach wyświetlających grafikę
+-działanie budzika przy włączonym ekranie odtwarzacza muzyki
+
+Szybka instrukcja obśługi:
+
+Pierw, należy połączyć się z płytką przez Bluetooth.
+Niestety wspierane tylko urządzenia z systemem iOS.
+
+Ekran ustawiania godziny:
+przycisk B - zmiana wartości na danej pozycji
+przycisk A - zmiana pozycji
+gest w górę - zatwierdzenie (warto spróbować kilka razy)
+cyfra po prawej
+Ekran główny (ekran zegarka)
+przycisk B - ustawienie budzika (jak w ustawianiu godziny)
+gest w lewo/prawo - przejście do innego ekranu
+
+Ekran odtwarzacza muzyki
+przycisk A - stop/start odtwaraznia
+przycisk B - kolejny utwór
+
+Budzik
+przycisk A - wyłączenie budzika
+
